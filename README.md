@@ -1,1 +1,1 @@
-# hitchedu.github.io
+Christopher Hitchcock
