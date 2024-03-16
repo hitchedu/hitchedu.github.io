@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Assignment #X</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <h1>Assignment #X - Summary</h1>
