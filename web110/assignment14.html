@@ -8,8 +8,18 @@
   </head>
   <body>
     <h1>Assignment 14 - Summary</h1>
-    <p><ul><li>SELECT * FROM Customers;</li></ul>
-      </p>  
+    <ul>
+        <li>SELECT * FROM Customers;</li>
+        <li>SELECT * FROM Customers
+            WHERE Country='Mexico';</li>
+        <li>SELECT COUNT(ProductID)
+            FROM Products;</li>
+        <li>INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+            VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');</li>
+        <li>UPDATE Customers
+            SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+            WHERE CustomerID = 1;</li>
+    </ul>
     <p>
       </p>
     <p><a href="index.html">Back to Overview</a></p>
